@@ -1,20 +1,21 @@
-Template de um projeto WEB API .Net Core 5.0 utilizando os seguintes conceitos e tecnologias:
-
+.Net Core 5 API template project
 
 Project is separated into layers:
-	- Template.API
-		- Holds all the controllers for the API.
-	- Template.API.Core
-		- Holds common information that may be used for more than one API project.
-	- Template.Application
-		- Holds all the Commands and Queries used by the API methods.
-	- Template.Core
-		- Holds common information about Domain abstraction that may be used for more than one Domain project.
-	- Template.Infra
-		- Holds all information about database engines. Currently only Entity Framework is here, but here is where you
+
+	* Template.API
+		* Holds all the controllers for the API.
+	* Template.API.Core
+		* Holds common information that may be used for more than one API project.
+	* Template.Application
+		* Holds all the Commands and Queries used by the API methods.
+	* Template.Core
+		* Holds common information about Domain abstraction that may be used for more than one Domain project.
+	* Template.Infra
+		* Holds all information about database engines. Currently only Entity Framework is here, but here is where you
 		should add your other database contexts.
 
 Tecnologies:
+
 	- FluentValidation
 		- All commands and queries are validated using FluentValidation rules.
 	- AutoMapper
@@ -32,6 +33,7 @@ Tecnologies:
 		- Implemented identity framework for user creation and authentication.
 
 Design:
+
 	- DDD
 		- Entities can trigger events after changed in database.
 	- CQRS
