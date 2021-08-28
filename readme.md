@@ -1,5 +1,7 @@
 .Net Core 5 API template project
 
+This project is currently in development!
+
 Project is separated into layers:
 
 	* Template.API
